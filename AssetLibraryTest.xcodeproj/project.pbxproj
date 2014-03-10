@@ -22,6 +22,8 @@
 		817025BE18CD7ACA00136230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8170259D18CD7ACA00136230 /* UIKit.framework */; };
 		817025C618CD7ACA00136230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817025C418CD7ACA00136230 /* InfoPlist.strings */; };
 		817025C818CD7ACA00136230 /* AssetLibraryTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 817025C718CD7ACA00136230 /* AssetLibraryTestTests.m */; };
+		817025D518CD7B0900136230 /* AssetGroupData.m in Sources */ = {isa = PBXBuildFile; fileRef = 817025D218CD7B0900136230 /* AssetGroupData.m */; };
+		817025D918CD7B7400136230 /* AssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 817025D818CD7B7400136230 /* AssetManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		817025C318CD7ACA00136230 /* AssetLibraryTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssetLibraryTestTests-Info.plist"; sourceTree = "<group>"; };
 		817025C518CD7ACA00136230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		817025C718CD7ACA00136230 /* AssetLibraryTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetLibraryTestTests.m; sourceTree = "<group>"; };
+		817025D118CD7B0900136230 /* AssetGroupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetGroupData.h; sourceTree = "<group>"; };
+		817025D218CD7B0900136230 /* AssetGroupData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetGroupData.m; sourceTree = "<group>"; };
+		817025D718CD7B7400136230 /* AssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetManager.h; sourceTree = "<group>"; };
+		817025D818CD7B7400136230 /* AssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 		8170259F18CD7ACA00136230 /* AssetLibraryTest */ = {
 			isa = PBXGroup;
 			children = (
+				817025D718CD7B7400136230 /* AssetManager.h */,
+				817025D818CD7B7400136230 /* AssetManager.m */,
+				817025D118CD7B0900136230 /* AssetGroupData.h */,
+				817025D218CD7B0900136230 /* AssetGroupData.m */,
 				817025A818CD7ACA00136230 /* AppDelegate.h */,
 				817025A918CD7ACA00136230 /* AppDelegate.m */,
 				817025AB18CD7ACA00136230 /* Main_iPhone.storyboard */,
@@ -254,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				817025B318CD7ACA00136230 /* ViewController.m in Sources */,
+				817025D918CD7B7400136230 /* AssetManager.m in Sources */,
 				817025AA18CD7ACA00136230 /* AppDelegate.m in Sources */,
+				817025D518CD7B0900136230 /* AssetGroupData.m in Sources */,
 				817025A618CD7ACA00136230 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
